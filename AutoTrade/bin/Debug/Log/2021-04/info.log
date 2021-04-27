@@ -1,0 +1,101 @@
+﻿2021-04-16 10:25:29,947 - Configuration Result:
+[Success] Name AutoTrade
+[Success] Description 自动对账服务,每天固定时间运行，自动采集账单数据
+[Success] ServiceName AutoTrade
+2021-04-16 10:25:29,960 - Topshelf v4.3.0.0, .NET Framework 4.7.3740.0 (4.0.30319.42000)
+2021-04-16 10:25:29,982 - Starting as a Windows service
+2021-04-16 10:25:29,986 - [Topshelf] Starting
+2021-04-16 10:25:29,988 - 服务启动
+2021-04-16 10:25:29,996 - Server desktop-40q6pbq:14876:8988612c successfully announced in 197.0113 ms
+2021-04-16 10:25:29,996 - Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: Hangfire, Schema: hangfire'
+2021-04-16 10:25:29,996 - Using the following options for SQL Server job storage:
+2021-04-16 10:25:29,997 -     Queue poll interval: 00:00:02.
+2021-04-16 10:25:29,997 -     Invisibility timeout: 00:30:00.
+2021-04-16 10:25:29,997 - Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2021-04-16 10:25:30,003 - Server desktop-40q6pbq:14876:8988612c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-04-16 10:25:30,111 - Server desktop-40q6pbq:14876:f905d5b4 successfully announced in 108.5766 ms
+2021-04-16 10:25:30,116 - Server desktop-40q6pbq:14876:f905d5b4 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-04-16 10:25:30,907 - Server desktop-40q6pbq:14876:8988612c all the dispatchers started
+2021-04-16 10:25:31,052 - Server desktop-40q6pbq:14876:f905d5b4 caught stopping signal...
+2021-04-16 10:25:31,117 - Server desktop-40q6pbq:14876:f905d5b4 caught stopped signal...
+2021-04-16 10:25:31,143 - Server desktop-40q6pbq:14876:f905d5b4 all the dispatchers started
+2021-04-16 10:25:32,382 - Server desktop-40q6pbq:14876:f905d5b4 All dispatchers stopped
+2021-04-16 10:25:32,390 - Server desktop-40q6pbq:14876:f905d5b4 successfully reported itself as stopped in 4.8655 ms
+2021-04-16 10:25:32,390 - Server desktop-40q6pbq:14876:f905d5b4 has been stopped in total 1338.0647 ms
+2021-04-16 10:25:32,392 - [Topshelf] Started
+2021-04-16 10:25:32,734 - 2021/4/16 10:25:32,银行卡
+2021-04-16 10:25:54,818 - {"Status":0,"Msg":"该日期的银行卡支付对账数据存储文件FTP下载失败。"}
+2021-04-16 10:55:05,613 - 2021/4/16 10:55:05,银行卡
+2021-04-16 10:55:05,613 - 2021/4/16 10:55:05,银行卡
+2021-04-16 10:55:06,225 - 2021/4/16 10:55:06,银行卡
+2021-04-16 10:55:06,538 - 2021/4/16 10:55:06,银行卡
+2021-04-16 10:55:33,074 - {"Status":0,"Msg":"该日期的银行卡支付对账数据存储文件FTP下载失败。"}
+2021-04-16 10:55:33,074 - {"Status":0,"Msg":"该日期的银行卡支付对账数据存储文件FTP下载失败。"}
+2021-04-16 10:55:33,074 - {"Status":0,"Msg":"该日期的银行卡支付对账数据存储文件FTP下载失败。"}
+2021-04-16 10:55:33,075 - {"Status":0,"Msg":"该日期的银行卡支付对账数据存储文件FTP下载失败。"}
+2021-04-16 11:00:03,880 - 2021/4/16 11:00:03,扫码
+2021-04-16 11:00:03,897 - 2021/4/16 11:00:03,HIS
+2021-04-16 11:00:03,911 - 2021/4/16 11:00:03,银行卡
+2021-04-16 11:00:24,935 - {"Status":0,"Msg":"该日期的银行卡支付对账数据存储文件FTP下载失败。"}
+2021-04-16 11:00:24,952 - {"Status":0,"Msg":"该日期的银联扫码支付对账数据存储文件FTP下载失败。"}
+2021-04-16 11:00:25,165 - {"$type":"PG.Entities.Configs.ServiceResult, PG.Entities","Status":0}
+2021-04-16 11:22:54,937 - [Topshelf] Stopping
+2021-04-16 11:22:54,938 - [Topshelf] Stopped
+2021-04-16 11:22:54,943 - Web application is shutting down via OWIN's host.OnAppDisposing callback.
+2021-04-16 11:22:54,943 - Server desktop-40q6pbq:14876:8988612c caught stopping signal...
+2021-04-16 11:22:54,948 - Server desktop-40q6pbq:14876:8988612c caught stopped signal...
+2021-04-16 11:22:54,948 - Server desktop-40q6pbq:14876:8988612c All dispatchers stopped
+2021-04-16 11:22:54,951 - Server desktop-40q6pbq:14876:8988612c successfully reported itself as stopped in 2.0673 ms
+2021-04-16 11:22:54,952 - Server desktop-40q6pbq:14876:8988612c has been stopped in total 5.5701 ms
+2021-04-16 11:44:56,496 - Configuration Result:
+[Success] Name AutoTrade
+[Success] Description 自动对账服务,每天固定时间运行，自动采集账单数据
+[Success] ServiceName AutoTrade
+2021-04-16 11:44:56,515 - Topshelf v4.3.0.0, .NET Framework 4.7.3740.0 (4.0.30319.42000)
+2021-04-16 11:44:56,557 - 服务启动
+2021-04-16 11:44:56,580 - Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: Hangfire, Schema: hangfire'
+2021-04-16 11:44:56,580 - Using the following options for SQL Server job storage:
+2021-04-16 11:44:56,580 -     Queue poll interval: 00:00:02.
+2021-04-16 11:44:56,580 -     Invisibility timeout: 00:30:00.
+2021-04-16 11:44:56,580 - Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2021-04-16 11:44:56,628 - Server desktop-40q6pbq:6060:a0253c6e successfully announced in 541.7441 ms
+2021-04-16 11:44:56,666 - Server desktop-40q6pbq:6060:a0253c6e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-04-16 11:44:56,795 - Server desktop-40q6pbq:6060:8281e193 successfully announced in 194.8029 ms
+2021-04-16 11:44:56,806 - Server desktop-40q6pbq:6060:8281e193 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-04-16 11:45:00,681 - Server desktop-40q6pbq:6060:8281e193 all the dispatchers started
+2021-04-16 11:45:00,684 - Server desktop-40q6pbq:6060:a0253c6e all the dispatchers started
+2021-04-16 11:45:19,293 - Configuration Result:
+[Success] Name AutoTrade
+[Success] Description 自动对账服务,每天固定时间运行，自动采集账单数据
+[Success] ServiceName AutoTrade
+2021-04-16 11:45:19,310 - Topshelf v4.3.0.0, .NET Framework 4.7.3740.0 (4.0.30319.42000)
+2021-04-16 11:45:19,370 - 服务启动
+2021-04-16 11:45:19,381 - Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: Hangfire, Schema: hangfire'
+2021-04-16 11:45:19,381 - Using the following options for SQL Server job storage:
+2021-04-16 11:45:19,381 -     Queue poll interval: 00:00:02.
+2021-04-16 11:45:19,381 -     Invisibility timeout: 00:30:00.
+2021-04-16 11:45:19,381 - Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2021-04-16 11:45:19,444 - Server desktop-40q6pbq:17140:3e265302 successfully announced in 553.5736 ms
+2021-04-16 11:45:19,509 - Server desktop-40q6pbq:17140:3e265302 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-04-16 11:45:19,571 - Server desktop-40q6pbq:17140:18afa9d5 successfully announced in 176.0889 ms
+2021-04-16 11:45:19,576 - Server desktop-40q6pbq:17140:18afa9d5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2021-04-16 11:45:22,302 - Server desktop-40q6pbq:17140:18afa9d5 all the dispatchers started
+2021-04-16 11:45:22,447 - Server desktop-40q6pbq:17140:3e265302 all the dispatchers started
+2021-04-16 11:45:22,627 - Server desktop-40q6pbq:17140:18afa9d5 caught stopping signal...
+2021-04-16 11:45:22,828 - Server desktop-40q6pbq:17140:18afa9d5 caught stopped signal...
+2021-04-16 11:45:23,120 - Server desktop-40q6pbq:17140:18afa9d5 All dispatchers stopped
+2021-04-16 11:45:23,136 - Server desktop-40q6pbq:17140:18afa9d5 successfully reported itself as stopped in 5.9363 ms
+2021-04-16 11:45:23,136 - Server desktop-40q6pbq:17140:18afa9d5 has been stopped in total 508.9648 ms
+2021-04-16 11:45:23,139 - The AutoTrade service is now running, press Control+C to exit.
